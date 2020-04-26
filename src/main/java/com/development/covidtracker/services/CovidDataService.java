@@ -15,6 +15,9 @@ import org.apache.commons.csv.CSVRecord;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+/**
+ *  Service which makes an HTTP call to the below URL to get the covid info on a daily basis using a cron scheduler
+ */
 @Service
 public class CovidDataService {
 
